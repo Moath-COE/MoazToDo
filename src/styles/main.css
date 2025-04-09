@@ -69,6 +69,13 @@ h6 {
   line-height: 1.2;
 }
 
+/* 10. Remove lists styling */
+
+ul,
+ol {
+  list-style: none;
+}
+
 /* Colors & Defaults */
 
 :root {
@@ -79,5 +86,12 @@ h6 {
   --yellow: #ffd82f;
   --green: #66b17d;
   --light-gray: #f4f5f7;
-  --dark-gray: #dcdee1;
+  --mid-gray: #dcdee1;
+  --dark-gray: #999a9b;
+}
+
+/* General styles */
+
+.icon {
+  height: 20px;
 }
