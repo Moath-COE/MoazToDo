@@ -92,6 +92,10 @@ ol {
 
 /* General styles */
 
+body {
+  display: flex;
+}
+
 .icon {
   height: 20px;
 }
