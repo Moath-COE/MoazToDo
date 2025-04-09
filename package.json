@@ -1,8 +1,20 @@
 {
+  "name": "moaztodo",
+  "description": "A new todo app.",
+  "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moath-COE/MoazToDo#"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Moaz Abdelaziz",
+  "license": "ISC",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
