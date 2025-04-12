@@ -8,7 +8,7 @@
   <body>
     <nav class="navbar">
       <div class="top">
-        <input type="text" name="" id="" placeholder="🔎 Find note..." />
+        <input type="text" name="" id="" placeholder="🔎 Find a note..." />
         <div class="tabs">
           <ul class="nav_tabs_sections">
             <li class="nav_tab_item">
@@ -157,18 +157,36 @@
     </nav>
     <main class="canvas">
       <div class="canvas_main">
-        <div class="canvas_title">
-          <img
-            src="../assets/icons/star-solid.svg"
-            alt="star-solid"
-            class="icon"
-          />
-          <h1>Today</h1>
-          <img
-            src="../assets/icons/ellipsis-solid.svg"
-            alt="ellipsis-solid"
-            class="icon"
-          />
+        <div class="canvas_header">
+          <div class="canvas_title">
+            <img
+              src="../assets/icons/star-solid.svg"
+              alt="star-solid"
+              class="icon"
+            />
+            <h1>Today</h1>
+            <img
+              src="../assets/icons/ellipsis-solid.svg"
+              alt="ellipsis-solid"
+              class="icon"
+            />
+          </div>
+          <p class="canvas_description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            eveniet excepturi veniam expedita dicta vel explicabo numquam
+            obcaecati iste ducimus mollitia, exercitationem fugit quisquam
+            soluta.
+          </p>
+        </div>
+        <div class="canvas_filters">
+          <input type="radio" id="all" name="filter" value="all" checked />
+          <label for="all">All</label>
+          <input type="radio" id="urgent" name="filter" value="urgent" />
+          <label for="urgent">Urgent</label>
+          <input type="radio" id="important" name="filter" value="important" />
+          <label for="important">Important</label>
+          <input type="radio" id="tasks" name="filter" value="tasks" />
+          <label for="tasks">Tasks</label>
         </div>
         <div class="canvas_tasks_group">
           <div class="canvas_importance" id="urgent">
