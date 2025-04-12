@@ -1,3 +1,6 @@
+/* CSS imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* CSS resets */
 
 /* 1. Use a more-intuitive box-sizing model */
@@ -74,6 +77,15 @@ h6 {
 ul,
 ol {
   list-style: none;
+  padding: 0;
+}
+
+/* 11. Remove link styles */
+a {
+  font-style: none;
+  color: inherit;
+  text-transform: none;
+  text-decoration: none;
 }
 
 /* Colors & Defaults */
@@ -93,9 +105,16 @@ ol {
 /* General styles */
 
 body {
+  font-family: "Roboto", sans-serif;
+  height: 98vh;
+  max-width: 1280px;
+  border: solid var(--text-color) 1px;
+  border-radius: 20px;
+  margin: 10px auto;
+  overflow: hidden;
   display: flex;
 }
 
 .icon {
-  height: 20px;
+  width: 1rem;
 }

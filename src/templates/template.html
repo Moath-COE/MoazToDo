@@ -3,60 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/main.css" />
-    <link rel="stylesheet" href="../styles/nav.css" />
     <title>Document</title>
   </head>
   <body>
-    <nav>
-      <input type="text" name="" id="" />
-      <ul>
-        <li>
-          <a href="">Inbox</a
-          ><img
-            src="../assets/icons/inbox-solid (1).svg"
-            alt="inbox"
-            class="icon"
-          />
-          <div></div>
-        </li>
-        <li>
-          <a href="">Today</a
-          ><img
-            src="../assets/icons/calendar-days-solid.svg"
-            alt="calendar-days-solid"
-            class="icon"
-          />
-          <div></div>
-        </li>
-        <li>
-          <a href="">Upcoming</a
-          ><img
-            src="../assets/icons/star-solid.svg"
-            alt="star-solid"
-            class="icon"
-          />
-          <div></div>
-        </li>
-      </ul>
-      <hr />
-      <div class="nav_projects_section">
-        <h2>Projects</h2>
-        <div class="nav_project_brief">
-          <h3>Family</h3>
-          <ul>
-            <li><a href="">Vacation</a></li>
-            <li><a href="">Bay a car</a></li>
-            <li><a href="">Party</a></li>
+    <nav class="navbar">
+      <div class="top">
+        <input type="text" name="" id="" />
+        <div class="tabs">
+          <ul class="nav_tabs_sections">
+            <li class="nav_tab_item">
+              <a href=""
+                ><img
+                  src="../assets/icons/inbox-solid (1).svg"
+                  alt="calendar-days-solid"
+                  class="icon"
+                />Inbox</a
+              >
+              <div class="tab_notes_num">
+                <span class="important">1</span>
+                <span class="normal">8</span>
+              </div>
+            </li>
+            <li class="nav_tab_item">
+              <a href=""
+                ><img
+                  src="../assets/icons/star-solid.svg"
+                  alt="calendar-days-solid"
+                  class="icon"
+                />Today</a
+              >
+              <div class="tab_notes_num">
+                <span class="important"></span>
+                <span class="normal">5</span>
+              </div>
+            </li>
+            <li class="nav_tab_item">
+              <a href=""
+                ><img
+                  src="../assets/icons/calendar-days-solid.svg"
+                  alt="calendar-days-solid"
+                  class="icon"
+                />Upcoming</a
+              >
+              <div class="tab_notes_num">
+                <span class="important"></span>
+                <span class="normal">3</span>
+              </div>
+            </li>
           </ul>
-        </div>
-        <div class="nav_project_brief">
-          <h3>Family</h3>
-          <ul>
-            <li><a href="">Vacation</a></li>
-            <li><a href="">Bay a car</a></li>
-            <li><a href="">Party</a></li>
-          </ul>
+          <hr />
+          <div class="nav_projects_section">
+            <div class="nav_projects_title">
+              <h2>Projects</h2>
+              <img
+                src="../assets/icons/toolbox-solid.svg"
+                alt="toolbox-solid"
+                class="icon"
+              />
+            </div>
+            <div class="nav_project_brief">
+              <span>
+                <img
+                  src="../assets/icons/box-solid.svg"
+                  class="icon"
+                  alt="box-solid"
+                />
+                <h3>Family</h3>
+              </span>
+              <ul>
+                <li><a href="">Vacation</a></li>
+                <li><a href="">Bay a car</a></li>
+                <li><a href="">Party</a></li>
+              </ul>
+            </div>
+            <div class="nav_project_brief">
+              <h3>Family</h3>
+              <ul>
+                <li><a href="">Vacation</a></li>
+                <li><a href="">Bay a car</a></li>
+                <li><a href="">Party</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <div class="nav_footer">
@@ -76,7 +104,7 @@
         </button>
       </div>
     </nav>
-    <main>
+    <main class="canvas">
       <h1>
         <img
           src="../assets/icons/star-solid.svg"

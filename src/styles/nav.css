@@ -1,0 +1,91 @@
+/* Main styles */
+nav {
+  width: 25%;
+  flex-shrink: 0;
+  background: var(--light-gray);
+  padding: 1rem 1.5rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px 0 0 20px;
+}
+
+.top,
+.nav_footer {
+  width: 100%;
+}
+
+.top,
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nav_tabs_sections {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav_projects_section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.nav_tab_item {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.nav_tab_item a,
+.nav_project_brief span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tab_notes_num {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: medium;
+}
+
+.tab_notes_num .important,
+.tab_notes_num .normal {
+  padding: 0 0.4rem;
+  font-weight: normal;
+}
+
+.tab_notes_num .important {
+  background-color: var(--red);
+  border-radius: 45%;
+  color: var(--bg-main);
+  line-height: 1;
+}
+
+.tab_notes_num .important:empty {
+  display: none;
+}
+
+.tab_notes_num .normal {
+  color: var(--dark-gray);
+}
+
+/* Projects section */
+
+.nav_projects_title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav_projects_title .icon {
+  width: 1.3rem;
+}
