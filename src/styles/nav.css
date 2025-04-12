@@ -17,10 +17,12 @@ nav li {
 }
 
 nav li:hover,
-nav button:hover {
+nav button:hover,
+.top input {
   background-color: var(--mid-gray);
   border-radius: 10px;
 }
+
 /* Top sections styles */
 .top,
 .nav_footer {
@@ -32,6 +34,16 @@ nav button:hover {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+/* Search bar */
+
+.top input {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--mid-gray);
+  text-align: center;
+  padding: 0.2rem 0;
 }
 
 .nav_tabs_sections {
