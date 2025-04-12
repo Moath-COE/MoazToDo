@@ -21,6 +21,7 @@ nav button:hover,
 .top input {
   background-color: var(--mid-gray);
   border-radius: 10px;
+  cursor: pointer;
 }
 
 /* Top sections styles */

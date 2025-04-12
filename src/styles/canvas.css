@@ -12,6 +12,78 @@ main button:hover {
   border-radius: 10px;
 }
 
+/* Canvas Main */
+.canvas_main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem 4rem 0 4rem;
+  overflow-y: scroll;
+  height: 95vh;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.canvas_title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.canvas_title .icon:first-child {
+  width: 30px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.canvas_main::-webkit-scrollbar {
+  display: none;
+}
+
+/* Importance sections */
+
+.canvas_tasks_group {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.canvas_importance {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.importance_title_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--mid-gray);
+  padding: 0.2rem 0;
+  color: var(--blue);
+}
+
+.importance_title_section h2 {
+  font-size: 1.3rem;
+}
+
+.importance_tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.canvas_task {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.canvas_task .icon {
+  margin-top: 0.1rem;
+}
+
 /* Canvas footer */
 .canvas_footer {
   display: flex;
