@@ -3,12 +3,12 @@ nav {
   width: 25%;
   flex-shrink: 0;
   background: var(--light-gray);
-  padding: 1rem 1.5rem 0 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   border-radius: 20px 0 0 20px;
+  border-right: 1px solid var(--mid-gray);
 }
 
 nav li {
@@ -24,6 +24,11 @@ nav button:hover,
 }
 
 /* Top sections styles */
+
+.top {
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+
 .top,
 .nav_footer {
   width: 100%;
@@ -145,10 +150,9 @@ nav button:hover,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 0;
-  border-top: 1px solid var(--dark-gray);
+  padding: 0.5rem 1.5rem;
+  border-top: 1px solid var(--mid-gray);
   gap: 0.5rem;
-  margin-bottom: 0.2rem;
 }
 
 .nav_footer button {
@@ -163,4 +167,5 @@ nav button:hover,
   gap: 0.5rem;
   color: var(--dark-gray);
   font-weight: bold;
+  line-height: 1;
 }

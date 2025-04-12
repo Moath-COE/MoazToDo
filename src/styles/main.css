@@ -95,6 +95,10 @@ button {
   padding: 0;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /* Colors & Defaults */
 
 :root {
@@ -115,7 +119,7 @@ body {
   font-family: "Roboto", sans-serif;
   height: 98vh;
   max-width: 1280px;
-  border: solid var(--text-color) 1px;
+  border: solid var(--mid-gray) 1px;
   border-radius: 20px;
   margin: 10px auto;
   display: flex;

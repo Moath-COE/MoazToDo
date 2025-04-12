@@ -1,4 +1,27 @@
 /* Canvas styles */
 main {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main li:hover,
+main button:hover {
+  background-color: var(--mid-gray);
+  border-radius: 10px;
+}
+
+/* Canvas footer */
+.canvas_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+  border-top: 1px solid var(--mid-gray);
+  gap: 2rem;
+}
+
+.canvas_footer button {
+  padding: 0.2rem 1rem;
 }
