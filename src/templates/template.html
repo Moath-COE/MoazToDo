@@ -166,11 +166,11 @@
         <div class="canvas_header">
           <div class="canvas_title">
             <img
-              src="../assets/icons/star-solid.svg"
+              src="../assets/icons/inbox-solid (1).svg"
               alt="star-solid"
               class="icon"
             />
-            <h1>Today</h1>
+            <h1>Inbox</h1>
             <img
               src="../assets/icons/ellipsis-solid.svg"
               alt="ellipsis-solid"
@@ -187,15 +187,15 @@
         <div class="canvas_filters">
           <input type="radio" id="all" name="filter" value="all" checked />
           <label for="all">All</label>
-          <input type="radio" id="urgent" name="filter" value="urgent" />
+          <!-- <input type="radio" id="urgent" name="filter" value="urgent" />
           <label for="urgent">Urgent</label>
           <input type="radio" id="important" name="filter" value="important" />
           <label for="important">Important</label>
           <input type="radio" id="tasks" name="filter" value="tasks" />
-          <label for="tasks">Tasks</label>
+          <label for="tasks">Tasks</label> -->
         </div>
         <div class="canvas_tasks_group">
-          <div class="canvas_importance" id="urgent">
+          <!-- <div class="canvas_importance" id="urgent">
             <div class="importance_title_section">
               <h2>Urgent</h2>
               <img
@@ -302,7 +302,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="canvas_importance" id="Tasks">
             <div class="importance_title_section">
               <h2>Tasks</h2>
@@ -365,20 +365,74 @@
             src="../assets/icons/plus-solid.svg"
             alt="plus-solid"
             class="icon"
-          /></button
-        ><button type="button" class="canvas_footer_btn">
+          />
+        </button>
+        <!-- <button type="button" class="canvas_footer_btn">
           <img
             src="../assets/icons/table-solid.svg"
             alt="calendar-days-solid"
             class="icon"
           /></button
-        ><button type="button" class="canvas_footer_btn">
+        >
+        <button type="button" class="canvas_footer_btn">
           <img
             src="../assets/icons/magnifying-glass-solid.svg"
             alt="magnifying-glass-solid"
             class="icon"
           />
-        </button>
+        </button> -->
+      </div>
+      <div class="add_task_cont">
+        <div class="add_task_inputs">
+          <input type="text" placeholder="Task name ..." />
+          <input type="text" placeholder="  Description" />
+        </div>
+        <div class="add_task_options">
+          <button type="button">
+            <img
+              src="../assets/icons/table-solid.svg"
+              alt="calendar-days-solid"
+              class="icon"
+            /><span>Date</span
+            ><img
+              src="../assets/icons/plus-solid.svg"
+              alt="ellipsis-solid"
+              class="icon"
+              style="rotate: 45deg; display: none"
+            />
+          </button>
+          <button type="button">
+            <img
+              src="../assets/icons/flag-regular.svg"
+              alt="calendar-days-solid"
+              class="icon"
+            /><span>Priority</span
+            ><img
+              src="../assets/icons/plus-solid.svg"
+              alt="ellipsis-solid"
+              class="icon"
+              style="rotate: 45deg; display: none"
+            />
+          </button>
+          <button type="button">
+            <img
+              src="../assets/icons/ellipsis-solid.svg"
+              alt="ellipsis-solid"
+              class="icon"
+            />
+          </button>
+        </div>
+        <div class="add_task_footer">
+          <select name="projects" id="projects">
+            <option value="project" selected disabled>Project</option>
+            <option value="Family">Family</option>
+            <option value="Career">Career</option>
+          </select>
+          <div>
+            <button type="button">Cancel</button
+            ><button type="button">Add task</button>
+          </div>
+        </div>
       </div>
     </main>
   </body>
